@@ -12,8 +12,8 @@ app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 app.use(express.static(__dirname + '/app/public'));
 
-require('./app/routing/apiroutes.js')(app); 
-require('./app/routing/htmlroutes.js')(app);
+require('./app/routing/apiRoutes.js')(app); 
+require('./app/routing/htmlRoutes.js')(app);
 
 
 app.listen(PORT, function() {
