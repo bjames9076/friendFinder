@@ -17,10 +17,10 @@ module.exports = function(app){
                     image: "",
                     matchDifference: 1000
                 };
-                var usrData 	= req.body;
-                var usrName 	= usrData.name;
-                var usrImage 	= usrData.image;
-                var usrScores 	= usrData.scores;
+                var usrData = req.body;
+                var usrName = usrData.name;
+                var usrImage = usrData.image;
+                var usrScores = usrData.scores;
         
                 var totalDifference = 0;
         
